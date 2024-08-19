@@ -23,8 +23,10 @@
           /></a>
         </div>
         <div id="div-items">
-          <ul type="none">
+          <ul type="none" id="nav-list">
+            <hr>
             <li><a href="index.html">ACCUEIL</a></li>
+            <hr>
             <li class="dropdown branch">
               <a href="">NOS BRANCHES</a>
               <div>
@@ -44,6 +46,7 @@
                 </ul>
               </div>
             </li>
+            <hr>
             <li class="dropdown about">
               <a href="">A PROPOS DE NOUS</a>
               <div>
@@ -63,6 +66,7 @@
               </div>
             </li>
           </ul>
+          <img src="/assets/images/menu-icon.png" alt="menu" id="menu-icon">
         </div>
       </nav>
     </header>
@@ -142,13 +146,13 @@
                     <div>
                         <video src="/assets/images/sicto-btp (1).mp4" alt="" controls autoplay loop muted></video>
                         <figcaption>
-                            Les 20 logements de Gbeleban, en phase finale
+                            Les 20 logements de Gbeleban,<br> en phase finale
                         </figcaption>
                     </div>
                     <div>
                         <img src="/assets/images/sicto-btp (1).jpg" alt="" />
-                        <figcaption>
-                            Immeuble construit par SICTO (Rond point cité SIR)
+                        <figcaption id="legend">
+                            Immeuble construit <br>par SICTO <br>(Rond point cité SIR)
                         </figcaption>
                     </div>
                     <div>
@@ -187,7 +191,7 @@
             </div>
         </section>
         <!-- Future projects -->
-        <section>
+        <section class="section">
             <div class="rest-parts">
                 <h2>Projets à Venir</h2>
                 <hr />
@@ -210,55 +214,57 @@
     <!-- Main end -->
     <!-- Footer -->
     <footer>
-        <div id="foot-div">
-          <div id="first-col-foot">
+      <div id="foot-div">
+        <div id="first-col-foot">
+          <div>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div>
+            <h3>Des questions ? Appelez nous !</h3>
+            <p>Assistants de Direction : (+225) 07 12 20 18 62</p>
+            <p>Contact entreprise : (+225) 05 56 08 92 93</p>
+          </div>
+        </div>
+        <div id="second-col-foot">
+          <img src="/assets/images/logo-sicto-removebg-preview.png" alt="" />
+        </div>
+        <div id="third-col-foot">
+          <h2>Nos Réseaux Sociaux</h2>
+          <div>
             <div>
-              <i class="fa-solid fa-phone"></i>
+              <a
+                href="https://www.instagram.com/sicto93?igsh=aWh5ZW12NG5rYjVz&utm_source=qr"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
             </div>
             <div>
-              <h3>Des questions ? Appelez nous !</h3>
-              <p>Assistants de Direction : (+225) 07 12 20 18 62</p>
-              <p>Contact entreprise : (+225) 05 56 08 92 93</p>
+              <a
+                href="https://www.tiktok.com/@power122700?_t=8ow0lBNVjhG&_r=1"
+                target="_blank"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
             </div>
-          </div>
-          <div id="second-col-foot">
-            <img src="/assets/images/logo-sicto-removebg-preview.png" alt="" />
-          </div>
-          <div id="third-col-foot">
-            <h2>Nos Réseaux Sociaux</h2>
             <div>
-              <div>
-                <a
-                  href="https://www.instagram.com/sicto93?igsh=aWh5ZW12NG5rYjVz&utm_source=qr"
-                  target="_blank"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-              </div>
-              <div>
-                <a
-                  href="https://www.tiktok.com/@power122700?_t=8ow0lBNVjhG&_r=1"
-                  target="_blank"
-                  ><i class="fa-brands fa-tiktok"></i
-                ></a>
-              </div>
-              <div>
-                <a
-                  href="https://wa.me/2250556089292?text=Bonjour,%20je%20voudrais%20en%20savoir%20plus%20sur%20votre%20structure.%0APouvez-vous%20m'aider%20?"
-                  target="_blank"
-                  ><i class="fa-brands fa-whatsapp"></i
-                ></a>
-              </div>
+              <a
+                href="https://wa.me/2250556089292?text=Bonjour,%20je%20voudrais%20en%20savoir%20plus%20sur%20votre%20structure.%0APouvez-vous%20m'aider%20?"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
             </div>
           </div>
         </div>
-        <div id="copyright-div">
-          <p>
-            <b>SICTO SARL</b> - Copyright
-            <i class="fa-regular fa-copyright"></i> 2024
-          </p>
-        </div>
-      </footer>
-      <!-- Footer end -->
-    </body>
-  </html>
-  
+      </div>
+      <div id="copyright-div">
+        <p>
+          <b>SICTO SARL</b> - Copyright
+          <i class="fa-regular fa-copyright"></i> 2024
+        </p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+     <!-- Script -->
+      <script src="/assets/js/scrollingMenu.js"></script>
+     <!-- Script end -->
+  </body>
+</html>
