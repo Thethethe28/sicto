@@ -369,6 +369,48 @@ main figcaption {
   font-size: 16px;
   font-weight: 400;
 }
+/* Rice importation */
+#rice-imp-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rice-imp-div > div{
+  width: 90%;
+  height: auto;
+  background-color: rgb(60, 60, 60);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 0 30px 0;
+  color: #fff;
+}
+
+#rice-imp-div figure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+#rice-imp-div figure img, #rice-imp-div figure video {
+  width: 300px;
+  aspect-ratio: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  margin: 0px 15px;
+}
+
+#end-rice-p {
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+#start-rice-p {
+  font-size: 17px;
+  font-weight: 400;
+}
 /* Strategy and partenariats */
 #strat-part-div {
   display: flex;
@@ -455,6 +497,13 @@ main figcaption {
   }
 }
 
+@media screen and (max-width: 1051px) {
+  #rice-imp-div figure {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 551px) {
   #glob-pres h1 {
     font-size: 2rem;
@@ -475,6 +524,23 @@ main figcaption {
     align-items: start;
   }
 
+  #rice-imp-div > div{
+    width: 98%;
+  }
+
+  #rice-imp-div h3 {
+    text-align: start;
+  }
+
+  #end-rice-p {
+    font-size: 12px;
+  }
+  
+  #start-rice-p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
   #glob-pres figcaption {
     font-size: 11px;
   }
@@ -482,6 +548,10 @@ main figcaption {
   #glob-pres h1 {
     font-size: 1.8rem;
     font-weight: 600;
+  }
+
+  #rice-imp-div figure img, #rice-imp-div figure video {
+    width: 150px;
   }
 
   #glob-pres p {
