@@ -52,7 +52,7 @@ nav {
 
 #div-img img {
   margin: 10px;
-  height: 65px;
+  height: 70px;
   aspect-ratio: auto;
 }
 
@@ -139,7 +139,7 @@ header hr {
 @media screen and (max-width: 751px) {
   #menu-icon {
     display: block;
-    width: 40px;
+    width: 50px;
     aspect-ratio: auto;
     cursor: pointer;
   }
@@ -159,11 +159,20 @@ header hr {
     padding: 10px 25px;
     gap: 0px;
     height: 440px;
+    margin-top: 25px;
+  }
+
+  #nav-list > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #nav-list a {
     color: #fff;
     font-size: 1.2rem;
+    text-align: center;
   }
 
   #nav-list hr {
@@ -238,9 +247,9 @@ header hr {
     color: rgb(144, 144, 144);
   }
 
-  #div-img img {
-    margin: 10px;
-    height: 45px;
+  #div-img a > img {
+    margin: 5px;
+    height: 50px;
     aspect-ratio: auto;
   }
 }

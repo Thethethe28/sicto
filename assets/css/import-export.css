@@ -52,7 +52,7 @@ nav {
 
 #div-img img {
   margin: 10px;
-  height: 65px;
+  height: 70px;
   aspect-ratio: auto;
 }
 
@@ -139,7 +139,7 @@ header hr {
 @media screen and (max-width: 751px) {
   #menu-icon {
     display: block;
-    width: 40px;
+    width: 50px;
     aspect-ratio: auto;
     cursor: pointer;
   }
@@ -159,11 +159,20 @@ header hr {
     padding: 10px 25px;
     gap: 0px;
     height: 440px;
+    margin-top: 25px;
+  }
+
+  #nav-list > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #nav-list a {
     color: #fff;
     font-size: 1.2rem;
+    text-align: center;
   }
 
   #nav-list hr {
@@ -238,9 +247,9 @@ header hr {
     color: rgb(144, 144, 144);
   }
 
-  #div-img img {
-    margin: 10px;
-    height: 45px;
+  #div-img a > img {
+    margin: 5px;
+    height: 50px;
     aspect-ratio: auto;
   }
 }
@@ -377,7 +386,7 @@ main figcaption {
   align-items: center;
 }
 
-#rice-imp-div > div{
+#rice-imp-div > div {
   width: 90%;
   height: auto;
   background-color: rgb(60, 60, 60);
@@ -394,7 +403,8 @@ main figcaption {
   gap: 20px;
 }
 
-#rice-imp-div figure img, #rice-imp-div figure video {
+#rice-imp-div figure img,
+#rice-imp-div figure video {
   width: 300px;
   aspect-ratio: auto;
   border-radius: 10px;
@@ -419,7 +429,7 @@ main figcaption {
   align-items: center;
 }
 
-#rubber-imp-div > div{
+#rubber-imp-div > div {
   width: 90%;
   height: auto;
   background-color: rgb(60, 60, 60);
@@ -433,11 +443,12 @@ main figcaption {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
-#rubber-imp-div figure img, #rubber-imp-div figure video {
-  width: 300px;
+#rubber-imp-div figure img {
+  width: 280px;
   aspect-ratio: auto;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
@@ -452,6 +463,55 @@ main figcaption {
 #start-rubber-p {
   font-size: 17px;
   font-weight: 400;
+}
+/* Teak wood exportation */
+#teak-exp-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#teak-exp-div > div {
+  width: 90%;
+  height: auto;
+  background-color: rgb(60, 60, 60);
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  padding: 20px;
+  color: #fff;
+}
+
+#teak-exp-div > figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  gap: 20px;
+}
+/* Vehicule importation */
+#vehicule-imp-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#vehicule-imp-div > div {
+  width: 90%;
+  height: auto;
+  background-color: rgb(60, 60, 60);
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  padding: 20px;
+  color: #fff;
+}
+
+#vehicule-imp-div > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 /* Strategy and partenariats */
 #strat-part-div {
@@ -571,7 +631,7 @@ main figcaption {
     align-items: start;
   }
 
-  #rice-imp-div > div{
+  #rice-imp-div > div {
     width: 98%;
   }
 
@@ -582,16 +642,17 @@ main figcaption {
   #end-rice-p {
     font-size: 12px;
   }
-  
+
   #start-rice-p {
     font-size: 14px;
     font-weight: 400;
   }
 
-  #rice-imp-div figure img, #rice-imp-div figure video {
+  #rice-imp-div figure img,
+  #rice-imp-div figure video {
     width: 150px;
   }
-  #rubber-imp-div > div{
+  #rubber-imp-div > div {
     width: 98%;
   }
 
@@ -602,7 +663,7 @@ main figcaption {
   #end-rubber-p {
     font-size: 12px;
   }
-  
+
   #start-rubber-p {
     font-size: 14px;
     font-weight: 400;
